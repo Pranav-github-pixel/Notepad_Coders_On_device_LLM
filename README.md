@@ -1,16 +1,51 @@
-# phi3
+# Samsung EnnovateX 2025 AI Challenge Submission
 
-A new Flutter project.
+- **Problem Statement** - *(On-Device Fine-Tuning Framework for Billion+ Parameter scale LLMs
+Efficient framework for the on-device fine-tuning of Billion+ scale Large Language Models on a Galaxy S23-S25 equivalent smartphone/edge device. Enable a typical application to adapt a pre-trained LLM to a user's personal data, all while operating within the tight constraints of a mobile environment.)*
+- **Team name** - *(NotePad_Coders)*
+- **Team members ** - *Pranav Satish Khadse*, *Rishi Jain*, *Apratim Jha*, *Kulin Mathur* 
+- **Demo Video Link** - *(https://drive.google.com/drive/u/1/folders/1NqI4SMW359ZobwBUytoZEsZPMrYu7Qs1)*
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Repository Structure
 
-A few resources to get you started if this is your first Flutter project:
+- **Technical Documentation** - [Docs](docs)  
+  All technical details are written in markdown files inside the `docs/` folder.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Source Code** - [Source](src)  
+  The complete source code resides in the `src/` folder.  
+  The code is installable/executable and runs consistently on the intended platforms.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Models Used**  
+  - [Phi-3 Mini (4k Instruct, GGUF)](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)  
+  *(You are permitted to use open-weight models hosted on Hugging Face.)*
+
+- **Models Published**  
+  *(If you have trained or fine-tuned a custom model, upload it on Hugging Face under an appropriate open-source license and add the link here.)*
+
+- **Datasets Used**  
+  *(Links to all publicly available datasets under Creative Commons, Open Data Commons, or equivalent license.)*  
+  Example: [Common Crawl](https://commoncrawl.org/)
+
+- **Datasets Published**  
+  *(If you have created synthetic or proprietary datasets, publish them on Hugging Face under a suitable open license and add the link here.)*
+
+---
+
+## Tech Stack
+
+- **Frontend / UI**: Flutter  
+- **Languages**: Dart, Kotlin/Java (for Android integration), C++ (FFI bindings if needed)  
+- **ML Inference**: [MLC LLM](https://github.com/mlc-ai/mlc-llm) (GGUF model support)  
+- **Model Storage**: Device-local storage (`getApplicationDocumentsDirectory`)  
+- **Dependency Management**: pub.dev (Flutter), Gradle (Android)  
+- **Platforms Supported**: Android (tested), Web/Desktop (with modifications)  
+- **Model Format**: GGUF (quantized LLMs)  
+- **Datasets**: Open-source datasets (if applicable, links above)  
+- **Version Control**: Git + GitHub  
+
+---
+
+
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
