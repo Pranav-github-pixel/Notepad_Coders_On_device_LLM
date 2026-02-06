@@ -47,5 +47,4 @@ Efficient framework for the on-device fine-tuning of Billion+ scale Large Langua
 ---
 
 
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+  
