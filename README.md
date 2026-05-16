@@ -3,7 +3,7 @@
 - **Problem Statement** - *(On-Device Fine-Tuning Framework for Billion+ Parameter scale LLMs
 Efficient framework for the on-device fine-tuning of Billion+ scale Large Language Models on a Galaxy S23-S25 equivalent smartphone/edge device. Enable a typical application to adapt a pre-trained LLM to a user's personal data, all while operating within the tight constraints of a mobile environment.)*
 - **Team name** - *(NotePad_Coders)*
-- **Team members ** - *Pranav Satish Khadse*, *Rishi Jain*, *Apratim Jha*, *Kulin Mathur* 
+- **Team members** - *Pranav Satish Khadse*, *Rishi Jain*, *Apratim Jha*, *Kulin Mathur* 
 - **Demo Video Link** - *(https://drive.google.com/drive/u/1/folders/1NqI4SMW359ZobwBUytoZEsZPMrYu7Qs1)*
 
 
