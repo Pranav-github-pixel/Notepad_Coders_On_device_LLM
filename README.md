@@ -18,18 +18,7 @@ Efficient framework for the on-device fine-tuning of Billion+ scale Large Langua
 
 - **Models Used**  
   - [Phi-3 Mini (4k Instruct, GGUF)](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)  
-  *(You are permitted to use open-weight models hosted on Hugging Face.)*
-
-- **Models Published**  
-  *(If you have trained or fine-tuned a custom model, upload it on Hugging Face under an appropriate open-source license and add the link here.)*
-
-- **Datasets Used**  
-  *(Links to all publicly available datasets under Creative Commons, Open Data Commons, or equivalent license.)*  
-  Example: [Common Crawl](https://commoncrawl.org/)
-
-- **Datasets Published**  
-  *(If you have created synthetic or proprietary datasets, publish them on Hugging Face under a suitable open license and add the link here.)*
-
+ 
 ---
 
 ## Tech Stack
